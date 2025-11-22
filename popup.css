@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #74c0fc;
+  width: 240px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #74c0fc;
+  color: #74c0fc;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #74c0fc;
+  color: #2c3e50;
+}

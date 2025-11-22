@@ -1,0 +1,143 @@
+.selector-popup {
+  position: absolute;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: #74c0fc;
+  border: 1px solid #74c0fc;
+  border-radius: 12px;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  min-width: 200px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #74c0fc;
+  margin-bottom: 8px;
+}
+
+.tab {
+  background: transparent;
+  border: none;
+  color: #a0aec0;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 4px 6px;
+}
+
+.tab.active {
+  color: #74c0fc;
+  border-bottom: 2px solid #74c0fc;
+}
+
+.framework-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.framework-group.hidden {
+  display: none;
+}
+
+.framework-group div {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  padding: 5px 8px;
+  border: 1px solid rgba(116, 192, 252, 0.4);
+  font-size: 13px;
+  .fw-item {
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(116, 192, 252, 0.2);
+  padding-bottom: 6px;
+}
+
+.fw-title {
+  font-weight: 600;
+  color: #74c0fc;
+}
+
+.fw-code {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  padding: 4px 6px;
+  margin-top: 4px;
+  font-family: monospace;
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+.copy-btn {
+  margin-top: 4px;
+  background: transparent;
+  border: 1px solid #74c0fc;
+  color: #74c0fc;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: #74c0fc;
+  color: #2c3e50;
+}
+.frameworks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.fw-table {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #74c0fc;
+  border-radius: 8px;
+  padding: 8px 10px;
+  box-shadow: 0 0 8px rgba(116, 192, 252, 0.3);
+}
+
+.fw-header {
+  font-weight: 700;
+  font-size: 13px;
+  color: #74c0fc;
+  border-bottom: 1px solid rgba(116, 192, 252, 0.2);
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+}
+
+.fw-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fw-code {
+  font-family: monospace;
+  font-size: 12px;
+  color: #a0aec0;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  padding: 5px 6px;
+  word-break: break-all;
+}
+
+.copy-btn {
+  align-self: flex-start;
+  background: transparent;
+  border: 1px solid #74c0fc;
+  color: #74c0fc;
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.copy-btn:hover {
+  background: #74c0fc;
+  color: #2c3e50;
+}
+
+}
